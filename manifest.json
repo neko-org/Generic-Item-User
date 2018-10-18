@@ -4,10 +4,10 @@
           "overwrite": false,
           "hash": "7f7df3506f44c19a29a88031b5caab0de35c4b5f114ab00bfe5be49540932e83"
       },
-      "index.js": "cf70e06fabda4d2250df5674e059f53a756256a33ba55c3642f235b03306df01",
-      "module.json": "a3605fc492855f4ec56697a5a927c0c64e75d5fe45cfe8d1314928117c378501"
+      "index.js": "4979a3141c364afb94afafdb9e6ccc156e0ddb02077ca3ea5a8322c9deeba5a9"
     },
     "defs": {
+        "C_USE_ITEM": 3,
         "S_EACH_SKILL_RESULT": 12
     }
   }

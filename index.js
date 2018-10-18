@@ -14,7 +14,7 @@ module.exports = function GenericItemUser(mod){
     }
     const sEachSkillResult = (e) => {
         if(!enabled || !(mod.game.me.is(e.owner) || mod.game.me.is(e.source))) return;
-        if(config.hasOwnProperty(e.skill.id)){
+        if(!!config[e.skill.id]){
             config[e.skill.id].forEach( item => {
                 useItem(item.enable, item.id, item.delay);
             });
